@@ -22,11 +22,24 @@ class Credit extends Model {
    })
    //esto es typescript
    declare name: string
+   //-------------------------------------------------------/
    @Column({
       type: DataType.DECIMAL
    })
    //esto es typescript
    declare amount: number
-}
+   //-------------------------------------------------------------/
+   @Column({
+      type: DataType.STRING(250)
+   })
+   //esto es typescript
+   declare comment: string
+   //--------------------------------------------------------------------/
+   @Column({
+      type: DataType.STRING(100)
+   })
+   //esto es typescript
+   declare phone: string
+} 
 
 export default Credit
