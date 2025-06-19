@@ -1,0 +1,12 @@
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar variables de entorno
+.env
+
+# Ignorar logs
+*.log
+
+# Ignorar directorios de compilación
+dist/
+build/

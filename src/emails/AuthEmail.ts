@@ -19,6 +19,9 @@ export class AuthEmail {
                 <p>Gracias por registrarte en CashFinance.</p>
                 <p>Haz clic en el siguiente enlace para confirmar tu cuenta:</p>
                 <p>Ingresa el codigo: <b>${user.token}</b></p>
+
+                git remote add origin https://github.com/Gabrielzinho09/Finance-Credit
+                https://github.com/Gabrielzinho09/Finance-Credit
                 <a href="#">Confirmar cuenta</a>
             `,
         })
