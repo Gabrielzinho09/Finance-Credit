@@ -3,6 +3,6 @@
 Proyecto personal de finanzas personales desarrollado con:
 
 - 🧠 Backend: Express + PostgreSQL + Sequelize
-- 🎨 Frontend: React
+- 🎨 Frontend: React en proceso
 
 ## 📦 Estructura
